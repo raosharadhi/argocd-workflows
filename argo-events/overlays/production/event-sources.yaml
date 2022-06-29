@@ -12,9 +12,9 @@ spec:
   github:
     argo-combined-app:
       owner: raosharadhi
-      repository: argo-combined-app
+      repository: argocd-workflows
       webhook:
-        endpoint: /argo-combined-app
+        endpoint: /argocd-workflows
         port: "12000"
         method: POST
         url: http://webhook.127.0.0.1.nip.io
